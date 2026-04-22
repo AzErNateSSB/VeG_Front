@@ -11979,4 +11979,36 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.logo {
+  height: 75px;
+  width: auto;
+}
+
+.hero-scene {
+  position: relative;
+}
+.hero-scene::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--bs-primary);
+}
+.hero-scene * {
+  position: relative;
+}
+.hero-scene .hero-scene-content {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-scene-content h1, .hero-scene-content .h1,
+.hero-scene-content p {
+  margin: 0;
 }/*# sourceMappingURL=main.css.map */
