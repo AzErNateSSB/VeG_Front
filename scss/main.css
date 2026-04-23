@@ -11985,10 +11985,10 @@ textarea.form-control-lg {
   width: auto;
 }
 
-.hero-scene {
+.Title {
   position: relative;
 }
-.hero-scene::before {
+.Title::before {
   content: "";
   position: absolute;
   top: 0;
@@ -11997,10 +11997,10 @@ textarea.form-control-lg {
   height: 100%;
   background-color: var(--bs-primary);
 }
-.hero-scene * {
+.Title * {
   position: relative;
 }
-.hero-scene .hero-scene-content {
+.Title .Title-content {
   height: 100px;
   display: flex;
   flex-direction: column;
@@ -12008,7 +12008,23 @@ textarea.form-control-lg {
   justify-content: center;
 }
 
-.hero-scene-content h1, .hero-scene-content .h1,
-.hero-scene-content p {
+.Title-content h1, .Title-content .h1,
+.Title-content p {
   margin: 0;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+main {
+  margin-bottom: 175px;
+}
+
+footer.footer {
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */

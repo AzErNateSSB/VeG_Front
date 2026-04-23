@@ -6,7 +6,7 @@
     width: auto;
 }
 
-.hero-scene{
+.Title{
     position: relative;
     &::before{
         content: "";
@@ -23,7 +23,7 @@
         position:relative;
     }
 
-    .hero-scene-content{
+    .Title-content{
         height: 100px;
         display: flex;
         flex-direction: column;
@@ -32,7 +32,23 @@
     }
 }
 
-.hero-scene-content h1,
-.hero-scene-content p {
+.Title-content h1,
+.Title-content p {
     margin: 0;
+}
+
+html{
+    position:relative;
+    min-height: 100%;
+}
+
+main{
+    margin-bottom: 175px;
+}
+
+footer.footer{
+    padding : 15px;
+    position: absolute;
+    bottom: 0;
+    width:100%;
 }
